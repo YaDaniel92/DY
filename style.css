@@ -1,0 +1,110 @@
+/* Фон для всіх сторінок */
+body {
+    background-color: #1a1a1a;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/* Основний контейнер для вмісту */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #2a2a2a;
+    padding: 20px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+}
+
+/* Стилі для заголовків */
+.main-title {
+    color: #ff0000;
+    text-align: center;
+    background-color: #333333;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 20px;
+    color: #ff4500;
+    background-color: #222222;
+    padding: 5px;
+    border-left: 4px solid #ff0000;
+    margin: 10px 0;
+}
+
+/* Стилі для параграфів */
+.description {
+    color: #e0e0e0;
+    padding: 10px;
+    border: 1px solid #ffffff;
+    margin: 10px 0;
+}
+
+/* Стилі для галереї */
+.gallery-title {
+    color: #ffffff;
+    text-align: center;
+    background-color: #ff0000;
+    padding: 10px;
+    border: 2px solid #ffffff;
+    margin: 10px 0;
+}
+
+#hero-photo {
+    font-style: italic;
+    color: #ff4500;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo {
+    border: 2px solid #ffffff;
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Стилі для списків */
+.hero-info, .contact-info {
+    padding: 10px;
+    border: 1px solid #ff0000;
+    margin: 10px 0;
+}
+
+li {
+    margin: 5px 0;
+    color: #e0e0e0;
+}
+
+/* Стилі для кнопок */
+.nav-button {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.nav-button:hover {
+    background-color: #cc0000;
+}
+
+/* Стилі для посилань */
+a {
+    color: #ff4500;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
